@@ -14,9 +14,9 @@ Summary: Biological Observation Matrix (BIOM) format
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/nsoranzo_biom-format-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/nsoranzo_biom-format-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/nsoranzo_biom-format-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/nsoranzo_biom-format-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/nsoranzo_biom-format-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/nsoranzo-biom-format-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/biom-format-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/biom-format-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/biom-format-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/biom-format-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/biom-format-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/biom-format-feedstock/branch/master)
 
 Current release info
 ====================
