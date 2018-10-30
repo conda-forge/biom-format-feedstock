@@ -10,7 +10,7 @@ source:
   sha256: b47e54282ef13cddffdb00aea9183a87175a2372c91a915259086a3f444c42f4
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - biom = biom.cli:cli
@@ -26,9 +26,10 @@ requirements:
     - python
     - {{ pin_compatible('numpy') }}
     - click
-    - scipy >=0.13.0
     - future >=0.16.0
-    - pandas >=0.19.2
+    - pandas >=0.20.0
+    - pyqi  # [py2k]
+    - scipy >=0.13.0
     - six >=1.10.0
 
 test:
@@ -52,3 +53,4 @@ extra:
   recipe-maintainers:
     - synapticarbors
     - wasade
+    - nsoranzo
