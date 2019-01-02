@@ -12,8 +12,8 @@ source:
 build:
   number: 1001
   script: python -m pip install --no-deps --ignore-installed .
-  # cython issues
-  skip: True  # [py37]
+  # Cython issues
+  skip: True  # [py>=37]
   entry_points:
     - biom = biom.cli:cli
 
