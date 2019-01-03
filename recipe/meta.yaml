@@ -10,8 +10,10 @@ source:
   sha256: b47e54282ef13cddffdb00aea9183a87175a2372c91a915259086a3f444c42f4
 
 build:
-  number: 1
+  number: 1001
   script: python -m pip install --no-deps --ignore-installed .
+  # Cython issues
+  skip: True  # [py>=37]
   entry_points:
     - biom = biom.cli:cli
 
