@@ -11,7 +11,6 @@ source:
 
 build:
   number: 1002
-  script: USE_CYTHON=1 {{ PYTHON }} -m pip install --no-deps --ignore-installed .
   entry_points:
     - biom = biom.cli:cli
 
@@ -55,3 +54,4 @@ extra:
     - synapticarbors
     - wasade
     - nsoranzo
+    - thermokarst

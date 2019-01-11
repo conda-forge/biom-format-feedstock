@@ -112,5 +112,6 @@ Feedstock Maintainers
 
 * [@nsoranzo](https://github.com/nsoranzo/)
 * [@synapticarbors](https://github.com/synapticarbors/)
+* [@thermokarst](https://github.com/thermokarst/)
 * [@wasade](https://github.com/wasade/)
 
