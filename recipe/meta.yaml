@@ -1,5 +1,5 @@
 {% set name = "biom-format" %}
-{% set version = "2.1.7" %}
+{% set version = "2.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -29,7 +29,7 @@ requirements:
     - future >=0.16.0
     - pandas >=0.20.0
     - pyqi  # [py2k]
-    - scipy >=0.13.0
+    - scipy >=1.3.1
     - six >=1.10.0
 
 test:
