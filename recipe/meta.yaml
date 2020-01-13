@@ -11,6 +11,7 @@ source:
 
 build:
   number: 0
+  skip: True  # [py2k]
   entry_points:
     - biom = biom.cli:cli
 
@@ -18,12 +19,12 @@ requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - python >=3.6
+    - python
     - pip
     - cython
     - numpy
   run:
-    - python >=3.6
+    - python
     - {{ pin_compatible('numpy') }}
     - click
     - future >=0.16.0
