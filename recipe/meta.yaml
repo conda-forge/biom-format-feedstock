@@ -1,5 +1,5 @@
 {% set name = "biom-format" %}
-{% set version = "2.1.9" %}
+{% set version = "2.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 18a6e4d4b4b2a6bf2d5544fa357ad168bedeac93f0837015ef9c72f41fa89491
+  sha256: f5a277a8144f0b114606852c42f657b9cfde44b3cefa0b2638ab1c1d5e1d0488
 
 build:
   number: 0
-  skip: True  # [py2k]
+  skip: true  # [py2k]
   entry_points:
     - biom = biom.cli:cli
 
@@ -48,7 +48,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: COPYING.txt
-  summary: 'Biological Observation Matrix (BIOM) format'
+  summary: Biological Observation Matrix (BIOM) format
   dev_url: https://github.com/biocore/biom-format
 
 extra:
