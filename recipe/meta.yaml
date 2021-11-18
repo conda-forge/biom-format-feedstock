@@ -10,7 +10,7 @@ source:
   sha256: f5a277a8144f0b114606852c42f657b9cfde44b3cefa0b2638ab1c1d5e1d0488
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py2k]
   entry_points:
     - biom = biom.cli:cli
