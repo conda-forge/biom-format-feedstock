@@ -8,11 +8,9 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: a4460e803b2abfcabe76d5d8fec0f3f7e76a8cd0e09bf22bb38dea9fca224ac2
-  patches:
-    - python310.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py2k]
   entry_points:
     - biom = biom.cli:cli
