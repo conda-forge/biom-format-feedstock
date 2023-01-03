@@ -1,5 +1,5 @@
 {% set name = "biom-format" %}
-{% set version = "2.1.13" %}
+{% set version = "2.1.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c48ed8fe978adaff5832f9d65ffcf8b735298bb2175b0360251d556baac5d4dc
+  sha256: c8bac94ab6aa8226c0d38af7a3341d65e5f3664b9f45ec44fdf8b5275b2f92c1
 
 build:
   number: 0
-  skip: True  # [py<36]
+  skip: true  # [py<36]
   entry_points:
     - biom = biom.cli:cli
 
