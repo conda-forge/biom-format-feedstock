@@ -10,7 +10,7 @@ source:
   sha256: c8bac94ab6aa8226c0d38af7a3341d65e5f3664b9f45ec44fdf8b5275b2f92c1
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<36]
   entry_points:
     - biom = biom.cli:cli
@@ -54,4 +54,3 @@ extra:
     - synapticarbors
     - wasade
     - nsoranzo
-    - thermokarst
