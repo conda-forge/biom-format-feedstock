@@ -1,11 +1,11 @@
-About biom-format
-=================
+About biom-format-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/biom-format-feedstock/blob/main/LICENSE.txt)
 
 Home: http://biom-format.org/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/biom-format-feedstock/blob/main/LICENSE.txt)
 
 Summary: Biological Observation Matrix (BIOM) format
 
