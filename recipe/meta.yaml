@@ -27,6 +27,7 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
     - cython
     - numpy >=1.9.2
     - h5py >=3.0.0
