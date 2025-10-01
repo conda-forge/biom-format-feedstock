@@ -13,7 +13,7 @@ source:
   sha256: 8e3fa07a432b3f6d5c3cad491ef1f27b18d10fc151ca2d223761be4f0b050479
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       USE_CYTHON: "1"
@@ -25,12 +25,12 @@ build:
 requirements:
   build:
     - if: build_platform != target_platform
-      then: 
-      - python
-      - cross-python_${{ target_platform }}
-      - cython
-      - numpy >=1.9.2
-      - h5py >=3.0.0
+      then:
+        - python
+        - cross-python_${{ target_platform }}
+        - cython
+        - numpy >=1.9.2
+        - h5py >=3.0.0
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
   host:
