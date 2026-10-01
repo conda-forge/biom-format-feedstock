@@ -13,7 +13,7 @@ source:
   sha256: 8e3fa07a432b3f6d5c3cad491ef1f27b18d10fc151ca2d223761be4f0b050479
 
 build:
-  number: 1
+  number: 2
   script:
     env:
       USE_CYTHON: "1"
