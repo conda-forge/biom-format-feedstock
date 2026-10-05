@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: biom-format
-  version: 2.1.17
+  version: "2.1.18"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 8e3fa07a432b3f6d5c3cad491ef1f27b18d10fc151ca2d223761be4f0b050479
+  sha256: fbb8cb19e459bbd1e8e2f8d34983a127245c6014f950ae082b9b19697484a315
 
 build:
-  number: 2
+  number: 0
   script:
     env:
       USE_CYTHON: "1"
